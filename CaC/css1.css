@@ -8,14 +8,8 @@
 .letra2{
     color:green;
 }
-.colornav{
-    background-color: rgb(53, 58, 64);
-}
 .po1{
     height: 20rem;
- }
- .carousel-innet{
-    height: auto;
  }
 .separado{
     margin-top: 1rem;
@@ -57,7 +51,10 @@
 .colorB{
     background-color: rgb(150, 201, 62) !important;
 }
-.bg-footer {
+.colorA{
+    background-color: rgb(53, 58, 64);
+}
+.colorFooter{
     background-color: #234a62;
     text-decoration: none;
     color: white;
