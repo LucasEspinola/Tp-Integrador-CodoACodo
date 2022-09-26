@@ -1,0 +1,61 @@
+
+.letra{
+    color:white;
+}
+.letra1{
+    color:gray;
+}
+.letra2{
+    color:green;
+}
+.po1{
+    height: 20rem;
+ }
+.separado{
+    margin-top: 1rem;
+}
+.card{
+    border: 1px solid rgb(221, 220, 220) !important;
+}
+.po2{
+    height: 20rem;
+    opacity: 0.5;
+}
+
+@media (min-width: 992px){
+    .po1, .po2, .po4{
+        height: 40rem;
+    }
+}
+@media (min-width: 1200px){
+    .po1, .po2, .po4{
+        height: 45rem;
+    }
+}
+.po3{
+    position:absolute;
+    top: 60%;
+    width: 100%;
+    left: 30%;
+}
+.relativo{
+    position: relative;
+}
+.po4{
+    height: 30rem;
+}
+
+.carousel-item{
+    background: black;
+}
+.colorB{
+    background-color: rgb(150, 201, 62) !important;
+}
+.colorA{
+    background-color: rgb(53, 58, 64);
+}
+.colorFooter{
+    background-color: #234a62;
+    text-decoration: none;
+    color: white;
+}
