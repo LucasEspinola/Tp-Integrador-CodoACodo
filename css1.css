@@ -59,3 +59,8 @@
     text-decoration: none;
     color: white;
 }
+.link-charla{
+    color: black;
+    border-bottom: 1px dotted black;
+    text-decoration: none;
+}
