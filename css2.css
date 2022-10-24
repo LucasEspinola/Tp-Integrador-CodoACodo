@@ -1,0 +1,56 @@
+/* html {
+    height: 100%;
+}
+body {
+    min-height: 100vh;
+
+}*/
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 7rem;
+} 
+.colorTicket{
+    color: rgb(159,203,62) !important;
+}
+.colorA{
+    background-color: rgb(53, 58, 64);
+}
+.separado{
+    margin-top: 1rem;
+}
+.borde1{
+    border: 1px solid rgb(14, 130, 255) !important;
+}
+.borde2{
+    border: 1px solid rgb(49, 174, 194) !important;
+}
+.borde3{
+    border: 1px solid rgb(255, 197, 19) !important;
+}
+/* .a1{
+    padding-right: 5px !important;
+}
+.a2{
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+.a3{
+    padding-left: 5px !important;
+} */
+.colorFooter{
+    background: rgb(0,74,119);
+background: linear-gradient(45deg, rgba(0,74,119,1) 50%, rgba(0,156,247,1) 100%);
+}
+.letraFooter{
+    text-decoration: none;
+    color: white;
+}
+.colorTexto{
+    background-color: rgb(204,229,255);
+    border: 1px solid rgb(148, 180, 214);
+}
+.colorBoton{
+    background-color: rgb(159,203,62) !important;
+}
