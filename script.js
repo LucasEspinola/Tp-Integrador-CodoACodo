@@ -8,12 +8,12 @@ function calcularPrecio(){
     categoria = document.getElementById("cat").value;
     elementoMod = document.getElementById("total");
 
-    if(categoria == 1){
-        elementoMod.innerHTML = ('Total a Pagar: $'+(cantidad * (200 * 0.8)));
+  if(categoria == 1){
+        elementoMod.innerHTML = ('Total a Pagar: $'+(cantidad * (200 - (200 * 0.8))));
     }else if(categoria == 2){
-        elementoMod.innerHTML = ('Total a Pagar: $'+(cantidad * (200 * 0.5)));
+        elementoMod.innerHTML = ('Total a Pagar: $'+(cantidad * (200 - (200 * 0.5))));
     }else{
-        elementoMod.innerHTML = ('Total a Pagar: $'+(cantidad * (200 * 0.15)));
+        elementoMod.innerHTML = ('Total a Pagar: $'+(cantidad * (200 - (200 * 0.15))));
     }
     
 }
